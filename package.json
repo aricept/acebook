@@ -1,0 +1,26 @@
+{
+  "name": "acebook",
+  "version": "1.0.0",
+  "description": "acebook newsletter templating",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aricept/acebook.git"
+  },
+  "author": "Nathan Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aricept/acebook/issues"
+  },
+  "homepage": "https://github.com/aricept/acebook",
+  "devDependencies": {
+    "gulp-google-cdn": "^2.0.0",
+    "gulp-html-minifier": "^0.1.6",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
