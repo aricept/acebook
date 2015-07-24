@@ -1,0 +1,712 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"tra",
+				"translateX"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"ico",
+				"iconThrob"
+			],
+			[
+				"flight",
+				"flightControl"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"create",
+				"createMarker"
+			],
+			[
+				"img",
+				"imgSrc"
+			],
+			[
+				"sc",
+				"scoreField"
+			],
+			[
+				"get",
+				"getInfo"
+			],
+			[
+				"ge",
+				"getInfo"
+			],
+			[
+				"score",
+				"scoreField"
+			],
+			[
+				"getElement",
+				"getElementById"
+			],
+			[
+				"getEl",
+				"getElementById"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"kitty",
+				"kittyClick"
+			],
+			[
+				"nyt",
+				"nytimes-articles"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"sp",
+				"speed"
+			],
+			[
+				"getElementBy",
+				"getElementsByClassName"
+			],
+			[
+				"before",
+				"beforeEach"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"update",
+				"updatePositions"
+			],
+			[
+				"windo",
+				"windowwidth"
+			],
+			[
+				"randomPi",
+				"randomPizzaContainer"
+			],
+			[
+				"up",
+				"updatePositions"
+			],
+			[
+				"scroll",
+				"scrollPos"
+			],
+			[
+				"off",
+				"offsetWidth"
+			],
+			[
+				"all",
+				"allEnemies"
+			],
+			[
+				"row",
+				"row"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"formatted",
+				"formattedDescription"
+			],
+			[
+				"for",
+				"formattedRole"
+			],
+			[
+				"awesome",
+				"awesomeThoughts"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n<title>acebook</title>\n<link rel=\"stylesheet\" src=\"css/style.css\">\n</head>\n<body>\n        \n",
+			"file": "index.html",
+			"file_size": 139,
+			"file_write_time": 130821975325559856,
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Nathan and Bridget/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Nathan and Bridget/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/test/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/bower_components/offline/themes/offline-theme-slide.css",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/src/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/src/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/bower_components/offline/offline.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/bower_components/offline/themes/offline-language-english.css",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/gulpfile.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/570556785.json",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/570545247.json",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/flightData.json",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/570484441.json",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/570543522.json",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/570478767.json",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/bower_components/offline/README.md",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/src/css/style.css",
+		"/C/Users/Nathan and Bridget/AppData/Local/Temp/Temp1_ImageResizeCropCanvas.zip/ImageResizeCropCanvas/js/component.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/index.html",
+		"/C/Users/Nathan and Bridget/version-control/aricept/index.html",
+		"/C/Users/Nathan and Bridget/version-control/aricept/js/helper.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/cat-clicker-ko/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/cat-clicker-ko/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/map/js/airline-codes.json",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/js/main.js",
+		"/C/Users/Nathan and Bridget/Downloads/Udacity_AJAX_INIT/minicourse-ajax-project/js/script.js",
+		"/C/Users/Nathan and Bridget/Downloads/Udacity_AJAX_INIT/minicourse-ajax-project/index.html",
+		"/C/Users/Nathan and Bridget/version-control/aricept/js/resumeBuilder.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/todo-app/js/views/app-view.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/todo-app/js/models/todo.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/todo-app/js/views/todo-view.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/todo-app/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/todo-app/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/Canvas/index.html",
+		"/C/Users/Nathan and Bridget/version-control/cat-clicker-ko/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/cat-clicker-ko/img/22252709_010df3379e_z.jpg",
+		"/C/Users/Nathan and Bridget/version-control/project5/attendance/index.html",
+		"/C/Users/Nathan and Bridget/version-control/cat-clicker-ko/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/attendance/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/catclicker/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/project5/catclicker/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project5/catclicker/js/catclicker.js",
+		"/C/Users/Nathan and Bridget/version-control/game/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/project5/retain/css/retain.css",
+		"/C/Users/Nathan and Bridget/version-control/project5/retain/js/retain.js",
+		"/C/Users/Nathan and Bridget/version-control/Project 5/index.html",
+		"/C/Users/Nathan and Bridget/version-control/Project 5/css/style.css",
+		"/C/Users/Nathan and Bridget/Downloads/Udacity_AJAX_INIT/minicourse-ajax-project/css/style.css",
+		"/C/Users/Nathan and Bridget/.bashrc",
+		"/C/Users/Nathan and Bridget/version-control/Project 5/js/catclicker.js",
+		"/C/Users/Nathan and Bridget/.bash_history",
+		"/C/Users/Nathan and Bridget/version-control/feedreader/index.html",
+		"/C/Users/Nathan and Bridget/version-control/feedreader/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/feedreader/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/feedreader/jasmine/spec/feedreader.js",
+		"/C/Users/Nathan and Bridget/version-control/feedreader/README.md",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/pizza-test.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/js/main-test.js",
+		"/C/Users/Nathan and Bridget/javascript project/javascript challenges/jsoniteration.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/js/analytics.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/js/main-original.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/pizza.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/README.md",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/gulpfile.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/pizza.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/.git/COMMIT_EDITMSG",
+		"/C/Users/Nathan and Bridget/version-control/project4/index.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/css/pizzas-sm.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/views/css/bootstrap-grid.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/package.json",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/js/pizzaGenerator.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/project-2048.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/project-webperf.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/src/project-mobile.html",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/js/main.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/css/bootstrap-grid.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/.gitignore",
+		"/C/Users/Nathan and Bridget/version-control/project4/js/js/myAnalytics.js",
+		"/c/Users/Nathan and Bridget/version-control/game/js/app.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/project4/js/perfmatters.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/js/myAnalytics.js",
+		"/C/Users/Nathan and Bridget/version-control/frontend-nanodegree-resume/index.html",
+		"/C/Users/Nathan and Bridget/version-control/game/js/resources.js",
+		"/c/Users/Nathan and Bridget/version-control/game/index.html",
+		"/C/Users/Nathan and Bridget/version-control/game/js/engine.js",
+		"/C/Users/Nathan and Bridget/Downloads/javascriptchallenges/relationship.js",
+		"/C/Users/Nathan and Bridget/version-control/frontend-nanodegree-resume/js/helper.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/dist/js/main.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/views/js/main-original.js",
+		"/C/Users/Nathan and Bridget/version-control/project4/dist/perfmatters.js",
+		"/c/Users/Nathan and Bridget/version-control/project4/.bashrc",
+		"/c/Users/Nathan and Bridget/version-control/game/README.md",
+		"/c/Program Files/Sublime Text 2/x",
+		"/C/Users/Nathan and Bridget/version-control/game/.git/COMMIT_EDITMSG",
+		"/c/Users/Nathan and Bridget/version-control/game/js/js.app",
+		"/C/Users/Nathan and Bridget/version-control/aricept/css/style.css",
+		"/C/Users/Nathan and Bridget/version-control/meme-maker/.git/COMMIT_EDITMSG",
+		"/C/Users/Nathan and Bridget/version-control/Canvas/.git/COMMIT_EDITMSG",
+		"/C/Users/Nathan and Bridget/version-control/frontend-nanodegree-resume/css/style.css",
+		"/c/Users/Nathan and Bridget/version-control/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/Nathan and Bridget/version-control/aricept/.git/COMMIT_EDITMSG",
+		"/C/Users/Nathan and Bridget/javascript project/test script.js",
+		"/C/Users/Nathan and Bridget/version-control/frontend-nanodegree-resume/.git/COMMIT_EDITMSG",
+		"/c/Users/Nathan and Bridget/version-control/frontend-nanodegree-resume/js/resumebuilder.js",
+		"/c/Users/Nathan and Bridget/version-control/reflections/lesson_3_reflections",
+		"/c/Users/Nathan and Bridget/version-control/reflections/lesson_2_reflections.txt",
+		"/c/Users/Nathan and Bridget/version-control/asteroids/game.js",
+		"/C/Users/Nathan and Bridget/version-control/asteroids/.git/COMMIT_EDITMSG",
+		"/C/Users/Nathan and Bridget/version-control/reflections/recipes/.git/COMMIT_EDITMSG",
+		"/c/Users/Nathan and Bridget/version-control/reflections/recipes/cake-recipe.txt",
+		"/c/Users/Nathan and Bridget/version-control/reflections/recipes/crawfish-etoufee-recipe.txt",
+		"/c/Users/Nathan and Bridget/version-control/reflections/recipes/chili-recipe.txt",
+		"/C/Users/Nathan and Bridget/version-control/create-your-own-adventure/english/invite-friends/start_discussion/am-i-crazy/am-i-crazy.md",
+		"/C/Users/Nathan and Bridget/version-control/create-your-own-adventure/.git/COMMIT_EDITMSG",
+		"/c/Users/Nathan and Bridget/version-control/create-your-own-adventure/english/invite-friends/start_discussion/regale/regale.md",
+		"/c/Users/Nathan and Bridget/version-control/create-your-own-adventure/english/invite-friends/start_discussion/discuss.md",
+		"/c/Users/Nathan and Bridget/version-control/create-your-own-adventure/english/invite-friends/start_discussion/discuss,md",
+		"/C/Users/Nathan and Bridget/version-control/reflections/.git/COMMIT_EDITMSG",
+		"/c/Users/Nathan and Bridget/version-control/reflections/lesson_1_reflections.txt",
+		"/c/Users/Nathan and Bridget/version-control/asteroids/reflections/lesson_2_reflections.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"console",
+			"self",
+			"flight",
+			"self.searchables()",
+			"window",
+			"console.log",
+			"act",
+			" Local",
+			"indexOf",
+			"search",
+			"mapBounds",
+			"3",
+			"flightList(",
+			" flightList",
+			"self.flightList",
+			"marker.icon",
+			"self",
+			"self.marker",
+			"marker",
+			"this",
+			"'",
+			" =",
+			"var ",
+			" =",
+			"var ",
+			"bio.contacts",
+			"projects.projects",
+			"jobs",
+			"bio.skills",
+			"work.jobs",
+			"%2C",
+			"pizza.png",
+			"\"",
+			"pizza.png",
+			"pizzabg.png",
+			"pizza.png",
+			"\\9",
+			"pizza-sm.webp",
+			"pizza.png",
+			"pizzaBoxes",
+			"\"",
+			"\"\n\"\n\"",
+			"\"",
+			"pizza.png",
+			"npc[i]",
+			"player",
+			" /**",
+			"*",
+			"'*'",
+			"*",
+			"NPC_Y.lvl2",
+			"NPC_Y.lvl1",
+			"this.dir",
+			"\"",
+			"ENEMY_MAX",
+			"PLAY",
+			"WIN",
+			"Resources",
+			"allEnemies",
+			"\\t",
+			"white",
+			"ctxt",
+			"backgroundColor = \"black\"",
+			"display = \"none\"",
+			"delayBeforeBullet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"flight",
+			"city",
+			"sched",
+			"",
+			"search",
+			"indexOf",
+			"10",
+			"self.flightList(",
+			" self.flightList",
+			"flightList",
+			"arrow",
+			"marker",
+			"self",
+			"self.marker",
+			"self",
+			"%27",
+			":",
+			"",
+			":",
+			"",
+			"contacts",
+			"projects",
+			"skills",
+			"jobs",
+			",",
+			"pizza.webp",
+			"'",
+			"pizza.webp",
+			"pizzabg.webp",
+			"pizza.webp",
+			"'",
+			"pizza.webp",
+			"this",
+			"/**",
+			"'/**'",
+			"/**",
+			"NPC_Y",
+			"'",
+			"enemyMax",
+			"play",
+			"win",
+			"    ",
+			"ctx",
+			"display = \"none\"",
+			"backgroundColor = \"black\""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "<!DOCTYPE html>",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
