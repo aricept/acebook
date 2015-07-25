@@ -2,14 +2,45 @@
 <html>
   <head>
     <title>acebook</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
-    <div class="acebook container">
-
+    <div class="acebook container" data-bind="foreach: replist">
+      <div class="row">
+        <div class="card col-md-6 col-md-offset-2">
+          <div class="image-frame">
+            <img data-bind="attr: {src: img, title: name}" class="repImage">
+            <span class="material-icons md-147" data-bind="click: $parent.selectImg">account_box</span>
+            <input type="file" style="display: none" data-bind="event: {change: $parent.loadImg}, attr: {id: 'file' + $index}">
+          </div>
+          <h4 class="agent-name name" data-bind="text: name, visible: !editName(), click: $parent.editName"></h4>
+          <input class="name-edit" data-bind="visible: editName(), textInput: name, event: {blur: $parent.editName}, hasFocus: editName()" type="text">
+          <p class="quote" data-bind="text: quote, click: $parent.editQuote, visible: !editQuote()"></p>
+          <input class="quote-edit" data-bind="visible: editQuote(), textInput: quote, event: {blur: $parent.editQuote}, hasFocus: editQuote()" type="text" autofocus>
+          <div class="callout">
+            <img src="img/thumb-small.png" data-bind="click: $parent.likeClick">
+            <p class="manager">
+              <span class="mgr-name name" data-bind="text: mgr, click: $parent.editMgr, visible: !editMgr()"></span>
+              <input class="mgr-edit" data-bind="visible: editMgr(), textInput: mgr, event: {blur: $parent.editMgr}, hasFocus: editMgr()" type="text">
+              and <span class="others name"><span data-bind="text: likes"></span> others</span> like this.
+            </p>
+          </div>
+          <div class="callout">
+            <img src="img/AT&T_globe_small.png">
+            <p class="applause" data-bind="text: pat, visible: !editPat(), click: $parent.editPat"></p>
+            <textarea class="pat-edit" data-bind="visible: editPat(), textInput: pat, event: {blur: $parent.editPat}, hasFocus: editPat()"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3" data-bind="if: ">
+          <button type="button" class="btn btn-primary" data-bind="click: $parent.newKudo"><i class="material-icons">add</i></button>
+        </div>
+      </div>
     </div>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/knockout.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
