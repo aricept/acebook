@@ -13,8 +13,8 @@
         <div class="card col-md-6 col-md-offset-2">
           <div class="image-frame">
             <img data-bind="attr: {src: img, title: name}" class="repImage">
-            <span class="material-icons md-147" data-bind="click: $parent.selectImg">account_box</span>
-            <input type="file" style="display: none" data-bind="event: {change: $parent.loadImg}, attr: {id: 'file' + $index}">
+            <span class="material-icons md-147" data-bind="click: $parent.selectImg, attr: {id: $index}">account_box</span>
+            <input type="file" style="display: none" data-bind="event: {change: $parent.loadImg}, attr: {id: 'file' + $index()}">
           </div>
           <h4 class="agent-name name" data-bind="text: name, visible: !editName(), click: $parent.editName"></h4>
           <input class="name-edit" data-bind="visible: editName(), textInput: name, event: {blur: $parent.editName}, hasFocus: editName()" type="text">
@@ -34,11 +34,18 @@
             <textarea class="pat-edit" data-bind="visible: editPat(), textInput: pat, event: {blur: $parent.editPat}, hasFocus: editPat()"></textarea>
           </div>
         </div>
-        <div class="col-md-3" data-bind="if: ">
-          <button type="button" class="btn btn-primary" data-bind="click: $parent.newKudo"><i class="material-icons">add</i></button>
+        <div class="col-md-3">
+          <button type="button" class="btn btn-danger" data-bind="click: $parent.removeKudo, visible: $index() !== 0"><i class="material-icons">remove</i></button>
+          <button type="button" class="btn btn-primary" data-bind="click: $parent.newKudo, visible: $index() === $parent.replist().length - 1"><i class="material-icons">add</i></button>
         </div>
       </div>
     </div>
+    <!-- ko if: currKudo -->
+    <div class="editCanvas" data-bind="with: currKudo, visible: editImg()">
+      <canvas class="editImg"></canvas>
+      <button class="material-icons md-40 btn btn-primary">done</button>
+    </div>
+    <!-- /ko -->
     <script src="js/jquery.min.js"></script>
     <script src="js/knockout.js"></script>
     <script src="js/app.js"></script>

@@ -11,9 +11,8 @@ document.addEventListener('DOMContentLoaded', function(){
   bg.src = 'img/acebook - template.png';
 });
 
-var Kudos = function() {
+var Kudos = function(kudo) {
   var self = this;
-
   self.name = ko.observable('Agent Name');
   self.img = ko.observable('');
   self.quote = ko.observable('A quote from the customer');
@@ -24,15 +23,30 @@ var Kudos = function() {
   self.editQuote = ko.observable(false);
   self.editMgr = ko.observable(false);
   self.editPat = ko.observable(false);
+  self.editImg = ko.observable(false);
 
 };
 
 var acebook = function() {
   var self = this;
+  var kudo = {};
 
   self.replist = ko.observableArray();
+  window.replist = self.replist;
 
-  self.replist().push(new Kudos());
+  self.lastItem = function(index) {
+    console.log(index);
+    console.log(self.replist().length - 1);
+    return index === self.replist().length - 1;
+  };
+
+  window.lastItem = self.lastItem;
+
+  kudo.lastItem = self.lastCheck;
+
+  self.replist().push(new Kudos(kudo));
+
+  self.currKudo = ko.observable();
 
   self.editName = function(kudo) {
     kudo.editName(!kudo.editName());
@@ -50,17 +64,25 @@ var acebook = function() {
     kudo.editQuote(!kudo.editQuote());
   };
 
+  self.editImg = function(kudo) {
+    self.currKudo(kudo);
+    kudo.editImg(!kudo.editImg());
+  };
+
   self.newKudo = function() {
     self.replist.push(new Kudos());
-    console.log(self.replist().length, self.replist().indexOf(this));
+  };
+
+  self.removeKudo = function(index) {
+    self.replist.splice(index, 1);
   };
 
   self.likeClick = function(kudo) {
     kudo.likes(kudo.likes() + 1);
   };
 
-  self.selectImg = function() {
-    var file = document.getElementById('file');
+  self.selectImg = function(data, evt) {
+    var file = document.getElementById('file' + evt.target.id);
     file.click();
   };
 
