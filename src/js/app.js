@@ -73,8 +73,9 @@ var acebook = function() {
     self.replist.push(new Kudos());
   };
 
-  self.removeKudo = function(index) {
-    self.replist.splice(index, 1);
+  self.removeKudo = function(kudo) {
+    // self.replist.splice(index, 1);
+    self.replist.remove(kudo);
   };
 
   self.likeClick = function(kudo) {
