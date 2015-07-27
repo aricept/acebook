@@ -4,6 +4,7 @@
     <title>acebook</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/component.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
   </head>
@@ -12,8 +13,8 @@
       <div class="row">
         <div class="card col-md-6 col-md-offset-2">
           <div class="image-frame">
-            <img data-bind="attr: {src: img, title: name}" class="repImage">
-            <span class="material-icons md-147" data-bind="click: $parent.selectImg, attr: {id: $index}">account_box</span>
+            <img data-bind="attr: {src: img, title: name}, visible: imgLoaded">
+            <span class="material-icons md-147" data-bind="click: $parent.selectImg, attr: {id: $index}, visible: img() === ''">account_box</span>
             <input type="file" style="display: none" data-bind="event: {change: $parent.loadImg}, attr: {id: 'file' + $index()}">
           </div>
           <h4 class="agent-name name" data-bind="text: name, visible: !editName(), click: $parent.editName"></h4>
@@ -40,10 +41,15 @@
         </div>
       </div>
     </div>
-    <!-- ko if: currKudo -->
-    <div class="editCanvas" data-bind="with: currKudo, visible: editImg()">
-      <canvas class="editImg"></canvas>
-      <button class="material-icons md-40 btn btn-primary">done</button>
+    <!-- ko if: currKudo() -->
+    <div class="editCanvas" data-bind="with: currKudo">
+      <div data-bind="visible: editImg()">
+        <div class="overlay">
+          <div class="overlay-inner"></div>
+        </div>
+        <img id="canvas">
+        <button class="material-icons md-40 btn btn-primary canvas-done">done</button>
+      </div>
     </div>
     <!-- /ko -->
     <script src="js/jquery.min.js"></script>
