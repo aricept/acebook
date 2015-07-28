@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+/*document.addEventListener('DOMContentLoaded', function(){
   console.log('Loaded');
   var tmplt = document.getElementsByClassName('acebook')[0];
   var bg = new Image();
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
     tmplt.style.backgroundImage = 'url('+bg.src+')';
   };
   bg.src = 'img/acebook - template.png';
-});
+});*/
 
 var Kudos = function(kudo) {
   var self = this;
@@ -300,7 +300,9 @@ var acebook = function() {
     crop_canvas.width = width;
     crop_canvas.height = height;
 
-    crop_canvas.getContext('2d').drawImage(image_target, left, top, width, height, 0, 0, width, height);
+    var cropctx = crop_canvas.getContext('2d');
+    console.log(image_target);
+    cropctx.drawImage(image_target, left, top, width, height, 0, 0, width, height);
     // window.open(crop_canvas.toDataURL("image/png"));
     cb(kudo, crop_canvas.toDataURL("image/png"));
   }

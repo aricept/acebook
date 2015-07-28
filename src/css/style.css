@@ -10,9 +10,9 @@ body {
 }
 
 .acebook {
-  background: no-repeat;
+  background: url("../img/acebook - template.png") no-repeat;
   height: 100%;
-  padding: 30% 0 0 0;
+  padding: 145% 0 0 0;
 }
 
 .row .card {
@@ -20,9 +20,11 @@ body {
   padding: 0 0 0 3%;
   vertical-align: middle;
   margin-bottom: 5px;
+  float: left;
 }
 
 .row {
+  left: 175px;
   position: relative;
   top: -1540px;
 }
@@ -46,6 +48,9 @@ body {
   margin: 0 0 5px 0;
 }
 
+.thumb {
+}
+
 .quote {
   margin: 0 0 5px 0;
 }
@@ -64,25 +69,17 @@ body {
   margin: 0 0 0 5px;
 }
 
-.manager {
-  left: 155px;
-}
 
 .manager img {
   padding: 0;
 }
 
-.mgr-name {
-}
-
 .applause {
-  background: #d3d8ff;
   align-self: flex-start;
 }
 
 .applause img {
   display: inline;
-  float: left;
 }
 
 .pat-edit {
